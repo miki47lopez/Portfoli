@@ -1,0 +1,530 @@
+ body {
+background-color: #E0E0E0;
+    
+    }
+
+            /*LogoTeknos*/
+
+
+#LogoTeknos{
+    position: absolute;
+    top: 9px;
+    border-radius: 18px;
+    
+}
+
+#top{
+    top: 0px;
+    position: relative;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    z-index: -2;
+    border-style: solid;
+    border-radius: 18px; 
+    border-color: black;
+    border-top: none;
+    
+    
+}
+
+            /*barra index*/
+#BarraIndex{
+top: 0px;
+    position: relative;
+    background-color: white;
+    height: 50px;
+    width: auto;
+    border-style: solid;
+    border-radius: 18px; 
+    border-color: black;
+
+}
+
+#asignatures{
+    color: white;
+    position: absolute;
+    top: 108px;
+    right: 8px;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    
+}
+#asignatures:hover {
+  background: #CC0000;
+}
+
+#jo{
+    color: white;
+    position: absolute;
+    top: 108px;
+    right: 212px;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+   
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    
+}
+#jo:hover {
+  background: #CC0000;
+}
+
+#index{
+    color: white;
+    position: absolute;
+    top: 108px;
+    left: auto;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+   
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    
+}
+#index:hover {
+  background: #CC0000;
+}
+
+
+            /*Nom i Cognom*/
+
+#NomCognom{
+    color: white;
+    position: absolute;
+    top: -13px;
+    right: 2px;
+    font-family: Verdana;
+    background-color: #FF6F00;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 18px;
+    border-color: #FF6F00;
+    height: 70px;
+    padding-top: 20px;
+    
+}
+
+        /*porfoli2017*/
+
+#Porfoli2017{
+    position: absolute;
+    top: 0px;
+    font-family: Verdana;
+    font-size: 50px;
+    left: 40%;
+    text-align: center;
+        
+}
+
+#Dibuix{
+    color: white;
+    position: absolute;
+    top: 160px;
+    right: 8px;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: +2;
+}
+
+#Modelatge{
+    color: white;
+    position: absolute;
+    top: 213px;
+    right: 8px;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: +2;
+}
+
+#Animacio3{
+    color: white;
+    position: absolute;
+    top: 264px;
+    right: 8px;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: +2;
+}
+        
+#StopMotion{
+      color: white;
+    position: absolute;
+    top: 315px;
+    right: 8px;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: +2;
+}
+
+#Animacio2{
+    color: white;
+    position: absolute;
+    top: 365px;
+    right: 8px;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear; 
+    z-index: +2;
+}
+    
+#Textoritzacio{
+    color: white;
+    position: absolute;
+    top: 783px;
+    right: 8px;
+    background-color: white;
+    height: 70px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear; 
+    z-index: +2;
+}
+
+#Color{
+    color: white;
+    position: absolute;
+    top: 856px;
+    right: 8px;
+    background-color: white;
+    height: 110px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: +2;
+}
+
+#Acabats3{
+    color: white;
+    position: absolute;
+    top: 415px;
+    right: 8px;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: +2;
+}
+    
+#Iluminacio{
+    color: white;
+    position: absolute;
+    top: 464px;
+    right: 8px;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: +2;
+}
+
+#HTML{
+    color: white;
+    position: absolute;
+    top: 638px;
+    right: 8px;
+    background-color: white;
+    height: 70px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: +2;
+}
+
+#ProgramacioJocs{
+    color: white;
+    position: absolute;
+    top: 711px;
+    right: 8px;
+    background-color: white;
+    height: 70px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: +2;
+}
+
+#Escultura{
+    color: white;
+    position: absolute;
+    top: 514px;
+    right: 8px;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: +2;
+}
+
+#EsculturaDigital{
+    color: white;
+    position: absolute;
+    top: 560px;
+    right: 8px;
+    background-color: white;
+    height: 75px;
+    width: 200px;
+    border-style: solid;
+    border-color:black;
+    background: #81D4FA;
+    cursor: pointer;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    z-index: +2;
+}
+
+#Dibuix:hover {
+  background: #CC0000;
+}#Modelatge:hover {
+  background: #CC0000;
+}#Animacio3:hover {
+  background: #CC0000;
+}#StopMotion:hover {
+  background: #CC0000;
+}#Animacio2:hover {
+  background: #CC0000;
+}#Color:hover {
+  background: #CC0000;
+}#Acabats3:hover {
+  background: #CC0000;
+}#Iluminacio:hover {
+  background: #CC0000;
+}#HTML:hover {
+  background: #CC0000;
+}#ProgramacioJocs:hover {
+  background: #CC0000;
+}#Textoritzacio:hover {
+  background: #CC0000;
+}#EsculturaDigital:hover {
+  background: #CC0000;
+}
+#Escultura:hover {
+  background: #CC0000;
+}
+
+
+            /*Titol*/
+
+#Text1{
+    position: relative;
+    top: 0px; 
+    margin-left: 12%;
+    width: 80%;
+    margin: 0px auto;
+    display: block;
+   /* border-style: solid;
+    background-color: white;
+    border-top-left-radius: 18px; 
+    border-top-right-radius: 18px; */
+     padding: 10px 10px;
+    
+}
+#Titol{
+    color: #FF6F00;
+    position: relative;
+    top: 0px; 
+    margin-left: 12%;
+    width: 80%;
+    margin: 0px auto;
+    
+   
+}
+
+#ex1{
+    position: relative;
+    top: 0px; 
+    margin-left: 12%;
+    width: 80%;
+    border-style: solid;
+    margin: 0px auto;
+    display: block;
+}
+
+#IniciB{
+    position: relative;
+    text-align: right;
+    border: solid;
+    background-color: #E74C3C;
+    padding-right: 20px;
+}
+#gif{
+    position: relative;
+    top: 0px; 
+    margin-left: 12%;
+    width: 80%;
+    border-style: solid;
+    margin: 0px auto;
+    display: block;
+}
+
+#Text2{
+    position: relative;
+    top: 0px; 
+    margin-left: 12%;
+    width: 80%;
+    border-style: solid;
+    margin: 0px auto;
+    display: block;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 10px;
+
+}
+#contact{
+    position: relative;
+    top: 0px; 
+    margin-left: 12%;
+    width: 80%; 
+    margin: 0px auto;
+    display: block;
+    padding: 10px 10px;
+}
+#FD{
+    position: relative;
+    top: 0px; 
+    margin-left: 12%;
+    width: 40%;
+    border-style: solid;
+    margin: 0px auto;
+    display: block;
+    height: 40%;
+}
+#TitolD{
+    color: #FF6F00;
+    position: relative;
+    top: 0px; 
+    margin-left: 12%;
+    width: 40%;
+    margin: 0px auto;
+    
+   
+}
+#TD{
+   position: relative;
+    top: 0px; 
+    margin-left: 12%;
+    width: 40%;
+    margin: 0px auto;
+    display: block;
+   /* border-style: solid;
+    background-color: white;
+    border-top-left-radius: 18px; 
+    border-top-right-radius: 18px; */
+     padding: 10px 10px;
+    
+   
+}
